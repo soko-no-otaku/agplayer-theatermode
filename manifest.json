@@ -1,0 +1,19 @@
+{
+  "name": "agplayer-theatermode",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "超！A&Gのプレーヤーを拡大表示",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.uniqueradio.jp/agplayerf/player3.php"
+      ],
+      "js": [
+        "enlarge.js"
+      ],
+      "css": [
+        "rearrange.css"
+      ]
+    }
+  ]
+}

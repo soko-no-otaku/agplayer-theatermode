@@ -1,0 +1,7 @@
+.agplayer .main {
+  /* もとの幅670px + leftSideの増分960px */
+  width: 1630px !important;
+}
+.agplayer .main .leftSide {
+  width: 1280px !important;
+}
